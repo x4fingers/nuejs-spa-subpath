@@ -1,0 +1,6 @@
+base: /nuejs
+title: Nue.js subpath demo
+description: Nue.js subpath demo
+globals: [style]
+
+favicon: /nuejs/img/nue-logo.svg

@@ -1,0 +1,13 @@
+services:
+  nuejs-spa-subpath:
+    build: .
+    container_name: nuejs-spa-subpath
+    restart: always
+    ports:
+      - 80:80
+    networks:
+      - demo
+
+networks:
+  demo:
+    name: demo
